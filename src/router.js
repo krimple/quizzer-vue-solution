@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import QuizGame from '@/views/prototype/QuizGame.vue'
+import QuizGame from '@/views/vue-only/QuizGame.vue'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
