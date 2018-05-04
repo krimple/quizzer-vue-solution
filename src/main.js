@@ -2,7 +2,7 @@ import Vue from 'vue'
 import SuiVue from 'semantic-ui-vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+import store from './stores/vue-and-vuex/quiz-store'
 import 'semantic-ui-css/semantic.min.css'
 
 Vue.config.productionTip = false
