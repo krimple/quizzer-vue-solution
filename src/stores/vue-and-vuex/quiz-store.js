@@ -24,7 +24,7 @@ export default new Vuex.Store({
   },
   actions: {
     loadQuizzes({ commit }) {
-      get('quiz-data.json')
+      get('/api/quizzes')
         .then(
           payload => {
             this.commit('loadQuizData', payload.data);
